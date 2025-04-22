@@ -30,7 +30,6 @@ export default function Authenticate({ token }) {
       {successMessage ? (
         <div>
           <h2>Your token is {token}</h2>
-          <h2> Your username is {successMessage.username}</h2>
         </div>
       ) : (
         <h2>You are not signed in! Please sign up</h2>
